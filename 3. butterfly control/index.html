@@ -1,0 +1,82 @@
+<html>
+<title>
+  butterfly control
+</title>
+<head>
+  <meta charset="UTF-8">
+  <title>3. butterfly control</title>
+  <script src="script.js"></script>
+  <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+  <div id="select-1" class="selector-block">
+    <select multiple="multiple" id="left-select">
+      <option>Опция 1</option>
+      <option>Опция 2</option>
+      <option>Опция 3</option>
+      <option>Опция 4</option>
+    </select>
+    <table>
+      <tr>
+        <td>
+          <input class="button" type="button" value=">>" onclick="allOptions(this);"/>
+        </td>
+      </tr>
+      <tr>
+        <td>
+          <input class="button" type="button" value="<<" onclick="allOptions(this, true);"/>
+        </td>
+      </tr>
+      <tr>
+        <td>
+          <input class="button" type="button" value=">" onclick="selectedOptions(this);"/>
+        </td>
+      </tr>
+      <tr>
+        <td>
+          <input class="button" type="button" value="<" onclick="selectedOptions(this, true);"/>
+        </td>
+      </tr>
+    </table>
+    <select multiple="multiple" width="10" id="right-select">
+      <option>Опция 5</option>
+      <option>Опция 6</option>
+    </select>
+  </div>
+  <br>
+  <div id="select-2" class="selector-block">
+    <select multiple="multiple" id="left-select">
+      <option>Опция 1</option>
+      <option>Опция 2</option>
+      <option>Опция 3</option>
+      <option>Опция 4</option>
+    </select>
+    <table>
+      <tr>
+        <td>
+          <input class="button" type="button" value=">>" onclick="allOptions(this);"/>
+        </td>
+      </tr>
+      <tr>
+        <td>
+          <input class="button" type="button" value="<<" onclick="allOptions(this, true);"/>
+        </td>
+      </tr>
+      <tr>
+        <td>
+          <input class="button" type="button" value=">" onclick="selectedOptions(this);"/>
+        </td>
+      </tr>
+      <tr>
+        <td>
+          <input class="button" type="button" value="<" onclick="selectedOptions(this, true);"/>
+        </td>
+      </tr>
+    </table>
+    <select multiple="multiple" width="10" id="right-select">
+      <option>Опция 5</option>
+      <option>Опция 6</option>
+    </select>
+  </div>
+  <br>
+</body>
